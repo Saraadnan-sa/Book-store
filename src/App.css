@@ -1,0 +1,174 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 30px 15px;
+}
+
+h3 {
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff !important;
+}
+
+.navbar-brand a {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand a:hover {
+  color: #f1f1f1;
+}
+
+/* Form and Table Wrappers */
+.form-wrapper,
+.table-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Buttons */
+button,
+.edit-link {
+  padding: 7px 15px;
+  font-size: 0.9rem;
+  line-height: normal;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.edit-link {
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  background-color: #218838;
+}
+
+/* Table */
+.table-wrapper {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Form */
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Thumbnail Links */
+.table-wrapper a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.table-wrapper a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.table td {
+  max-width: 200px; /* Set a max-width for table cells */
+  word-wrap: break-word; /* Allow wrapping for longer texts */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate overflowing text */
+}
+
+.table td .text-truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-wrapper {
+  margin-top: 20px;
+}
