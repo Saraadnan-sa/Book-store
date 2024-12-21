@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Workspace settings
+*.code-workspace
