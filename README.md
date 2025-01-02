@@ -8,7 +8,9 @@ Navigate to the backend directory
 Repeat this for the frontend directory if there is one (usually inside the src or client folder).
 
 Navigate to the frontend directory
+
 `cd ../src`
+
 `npm install`
 
 **2. Setup the Environment Variables**
@@ -22,12 +24,14 @@ Replace your_database_name with the name of your MongoDB database.
 Ensure MongoDB is running locally or in the cloud. If running locally, start the MongoDB service:
 
 Start MongoDB service
+
 `mongod`
 
 **4. Run the Backend**
 After setting up the environment, start the backend server. Run this command inside the backend directory:
 
 `npm start`
+
 If the start script is not configured in the package.json, use:
 
 `node index.js`
