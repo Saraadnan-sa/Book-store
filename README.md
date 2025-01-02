@@ -1,12 +1,13 @@
 **1. Install Dependencies**
 Open a terminal and navigate to the project's root directory. Install the required dependencies for both the backend and frontend:
 
-# Navigate to the backend directory
+Navigate to the backend directory
 cd backend
+
 npm install
 Repeat this for the frontend directory if there is one (usually inside the src or client folder).
 
-# Navigate to the frontend directory
+Navigate to the frontend directory
 cd ../src  # or the path where your frontend code is located
 npm install
 
@@ -20,7 +21,7 @@ Replace your_database_name with the name of your MongoDB database.
 **3. Start MongoDB**
 Ensure MongoDB is running locally or in the cloud. If running locally, start the MongoDB service:
 
-# Start MongoDB service
+Start MongoDB service
 mongod
 
 **4. Run the Backend**
