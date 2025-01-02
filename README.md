@@ -2,9 +2,11 @@
 Open a terminal and navigate to the project's root directory. Install the required dependencies for both the backend and frontend:
 
 Navigate to the backend directory
+
 `cd backend`
 
 `npm install`
+
 Repeat this for the frontend directory if there is one (usually inside the src or client folder).
 
 Navigate to the frontend directory
