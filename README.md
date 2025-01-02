@@ -1,41 +1,41 @@
-# React MERN Stack App
+**1. Install Dependencies**
+Open a terminal and navigate to the project's root directory. Install the required dependencies for both the backend and frontend:
 
-React MERN Stack CRUD app tutorial - Create frontend and backend with React, Node, Express, mongoDB. and learn to consume REST APIs with React Axios.
+# Navigate to the backend directory
+cd backend
+npm install
+Repeat this for the frontend directory if there is one (usually inside the src or client folder).
 
-This tutorial is not compatible with React Router V6, we used React Router V5 instead.
+# Navigate to the frontend directory
+cd ../src  # or the path where your frontend code is located
+npm install
 
-## Available Scripts
+**2. Setup the Environment Variables**
+Check if there's an .env file in the backend folder. If it exists, ensure it has the correct configuration (like the MongoDB URI). If it doesn't exist, create one and add necessary environment variables. Example:
 
-In the project directory, you can run:
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/your_database_name
+Replace your_database_name with the name of your MongoDB database.
 
-### `npm start`
+**3. Start MongoDB**
+Ensure MongoDB is running locally or in the cloud. If running locally, start the MongoDB service:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Start MongoDB service
+mongod
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+**4. Run the Backend**
+After setting up the environment, start the backend server. Run this command inside the backend directory:
 
-### Start Backend Server
+npm start
+If the start script is not configured in the package.json, use:
 
-- Get inside the `backend` folder
-- Run `npm install` to install required packages
-- Open terminal run `nodemon server.js`
-- Open other terminal run `mongod`
+node index.js
 
-Open API URL on [http://localhost:4000/students](http://localhost:4000/students) to view it in the browser.
+**5. Run the Frontend**
+Navigate to the frontend directory (e.g., src) and start the React app:
 
-### `npm test`
+npm start
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**6. Access the Application**
+Backend API: Check if the backend is working by visiting http://localhost:5000 (or the port you configured) in your browser or using tools like Postman.
+Frontend: Access the application in your browser at http://localhost:3000 (default React port).
